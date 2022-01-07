@@ -26,9 +26,12 @@ const result = () => {
     value.forEach((item) =>{
         item.addEventListener("click", ()=>{
             let computerSelection =  result();
-            (playerScore == 0) ? playerscore.textContent = "Your Score is : 0" : ""
-            (computerScore == 0) ? computerscore.textContent = "Computer Score is : 0" : ""
-                
+            if(playerScore == 0) {
+                playerscore.textContent = "Your Score is : 0"
+            }
+            if(computerScore == 0) {
+                computerscore.textContent = "Computer Score is : 0"
+            }
             if(playerScore >=5 || computerScore >=5){
                 btn.textContent = "Please refresh the page to play a new game!"
                 resetButton.appendChild(btn)
