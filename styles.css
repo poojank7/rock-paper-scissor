@@ -1,0 +1,101 @@
+.completegame{
+    margin:5%;
+}
+.header{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.container{
+    display: flex;
+}
+.btn {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #04AA6D;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    }
+    .btn{
+        width: 50%;
+        height: 50%;
+        margin:10px;
+        padding:15px;
+    }
+    #btn1{
+        background-color: #9B745B;
+    }
+    #btn1:hover{
+        background-color: #9b9b9b;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+    #btn2{
+        background-color: #FFFFFF;
+        color:#000;
+    }
+    #btn2:hover{
+        background-color: #F4F4F4;
+        box-shadow: 0 5px #666;
+        color:grey;
+        transform: translateY(4px);
+    }
+    #btn3{
+        background-color: #07ABCD;
+        color:#E6F230;
+    }
+    #btn3:hover{
+        background-color: #A8D1DF;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+    .resultcontainer{
+        padding:1%;
+        width: auto;
+    }
+    .computertextcontainer{
+        display: flex;
+        margin:1%;
+        gap: 1%;
+        width: auto;
+        text-align: center;
+        justify-items: flex-start;
+    }
+    .computertextcontainer div{
+        flex:1 1 auto;
+    }
+    .playertextcontainer{
+        display: flex;
+        margin:1%;
+        gap: 1%;
+        width: auto;
+        text-align: center;
+        justify-items: flex-start;
+    }
+    .playertextcontainer div{
+        flex: 1 1 auto;
+    }
+    .resulttext{
+        text-align: center;
+        border-radius: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        border: 1px solid grey;
+        padding: 10px;
+    }
+    .scoretext{
+        text-align: center;
+        border: 1px solid grey;
+        font-weight: normal;
+        padding: 12px;
+    }
+    .resetbutton{
+        text-align: center;
+        
+    }
+    
